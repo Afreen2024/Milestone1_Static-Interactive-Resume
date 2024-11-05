@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;  /* Ensure consistent box sizing */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;  /* Adjusted padding for better spacing */
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;  /* Centers the content */
+    flex-wrap: wrap;  /* Allows items to wrap on small screens */
+    background-color: rgba(63, 62, 62, 0.062);
+    width: 80%;
+    margin: 0 auto;  /* Corrected margin */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+}
+
+/* left section */
+.left-section {
+    background-color: #b3babe;
+    color: #0c7e3f;  /* Using hex color directly */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(7, 8, 3);  /* Corrected border */
+}
+
+/* profile picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: rgb(134, 43, 7) 0px 2px 6px;
+
+}
+
+/* h1 */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* h3 */
+h3 {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    color: black;
+    background-color: #f1f1f1;  /* Light background for sections */
+    border-radius: 8px;
+    box-shadow: rgb(134, 43, 7) 0px 2px 6px;
+}
+
+/* ul */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    text-align: left;  /* Left align the text */
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;  /* Slight padding on the left for indentation */
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #f379ca;
+}
+
+button:focus {
+    outline: 2px solid #f379ca;  /* Add a focus outline for accessibility */
+}
+
+
+#objective{
+    color:black;
+}
+#certification{
+    color:black;
+    
+}
